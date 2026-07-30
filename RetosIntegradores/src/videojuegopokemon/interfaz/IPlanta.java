@@ -1,4 +1,4 @@
-package videojuegopokemon.logica;
+package videojuegopokemon.interfaz;
 
 public interface IPlanta {
 

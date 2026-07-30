@@ -16,6 +16,10 @@ public class Main {
         bulbasaur.atacarDrenaje();
         pikachu.atacarAranazo();
         pikachu.atacarImpactrueno();
+        System.out.println(pikachu);
+        System.out.println(charmander);
+        System.out.println(squirtle);
+        System.out.println(bulbasaur);
 
     }
 }

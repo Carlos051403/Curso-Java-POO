@@ -13,4 +13,16 @@ public abstract class Pokemon {
     protected abstract void atacarAranazo();
     protected abstract void atacarMordisco();
 
+    @Override
+    public String toString() {
+        return "Pokemon{" +
+                "numPokedex=" + numPokedex +
+                ", nombre='" + nombre + '\'' +
+                ", peso=" + peso +
+                ", sexo='" + sexo + '\'' +
+                ", temporadaQueAparece=" + temporadaQueAparece +
+                ", tipo='" + tipo + '\'' +
+                '}';
+    }
+
 }
