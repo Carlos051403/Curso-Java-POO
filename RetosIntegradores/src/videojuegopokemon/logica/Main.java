@@ -8,18 +8,12 @@ public class Main {
         Bulbasaur bulbasaur = new Bulbasaur();
         Pikachu pikachu = new Pikachu();
 
-        squirtle.atacarAranazo();
-        squirtle.atacarHidrobomba();
-        charmander.atacarAranazo();
-        charmander.atacarLanzallamas();
-        bulbasaur.atacarAranazo();
-        bulbasaur.atacarDrenaje();
-        pikachu.atacarAranazo();
-        pikachu.atacarImpactrueno();
-        System.out.println(pikachu);
-        System.out.println(charmander);
-        System.out.println(squirtle);
-        System.out.println(bulbasaur);
+        Pokemon[] equipoPokemon = {squirtle, charmander, bulbasaur, pikachu};
+
+        for (Pokemon pokemon : equipoPokemon) {
+
+            pokemon.atacarAranazo();
+        }
 
     }
 }
