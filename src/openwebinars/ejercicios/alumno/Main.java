@@ -1,4 +1,4 @@
-package openwebinars.ejercicio1.alumno;
+package openwebinars.ejercicios.alumno;
 
 public class Main {
     public static void main (String[] args){

@@ -1,4 +1,4 @@
-package openwebinars.ejercicio1.alumno;
+package openwebinars.ejercicios.alumno;
 
 import java.util.Objects;
 
